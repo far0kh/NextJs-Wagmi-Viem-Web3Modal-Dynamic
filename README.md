@@ -1,23 +1,36 @@
-1. ```npx create-next-app@latest```
+# Use Web3Modal or Dynamic.xyz in Next.js with Wagmi and Viem
 
-![Screenshot 2024-01-25 130348](https://github.com/The-Matrix-Labs/temaplate-next-wagmi/assets/112635764/0c903d45-a029-4d53-9d8e-490423970dca)
+## Getting Started
 
-2. ```npm install wagmi viem@2.x @tanstack/react-query```
+Follow these steps to set up and run the project locally:
 
-3. ```npm install --save-dev lokijs encoding bufferutil autoprefixer pino-pretty supports-color utf-8-validate```
+### Prerequisites
 
-4. ```npm install @web3modal/wagmi@4.0.0-alpha.2```
+Make sure you have the following installed:
+- Git
+- Node.js
+- pnpm (You can install it globally with `npm install -g pnpm`)
 
-## Token ABI
+### Installation
 
-https://gist.githubusercontent.com/veox/8800debbf56e24718f9f483e1e40c35c/raw/f853187315486225002ba56e5283c1dba0556e6f/erc20.abi.json
+1. Clone the repository:
+   ```
+   git clone https://github.com/far0kh/NextJs-Wagmi-Viem-Web3Modal-Dynamic.git
+   ```
 
+2. Navigate to the project directory:
+   ```
+   cd NextJs-Wagmi-Viem-Web3Modal-Dynamic
+   ```
 
+3. Install dependencies:
+   ```
+   pnpm install
+   ```
 
+### Running the Development Server
 
-## To format the code in the project run the following command:
-
-```
-npm run lint:fix
-npm run format
-```
+To start the development server, run:
+   ```
+   pnpm dev
+   ```
