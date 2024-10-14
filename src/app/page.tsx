@@ -16,6 +16,11 @@ const Home = () => {
             Dynamic
           </button>
         </Link>
+        <Link href="/rainbowkit">
+          <button className="px-6 py-3 text-white bg-indigo-900 rounded-lg shadow-md hover:bg-indigo-950 transition-all duration-300 ease-in-out hover:transform hover:-translate-y-1 hover:shadow-lg">
+            RainbowKit
+          </button>
+        </Link>
       </div>
     </div>
   )
